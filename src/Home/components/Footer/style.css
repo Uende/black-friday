@@ -1,0 +1,13 @@
+:root{
+    --corSecundary: #1F1F1F;
+}
+
+footer{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--corSecundary);
+    color: white;
+    font-size: 16px;
+}

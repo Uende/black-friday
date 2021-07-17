@@ -1,0 +1,35 @@
+:root{
+    --corPrimary: #1511D3;
+    --corSecundary: #1F1F1F;
+}
+
+.section-electronics{
+   background-image: url("../../../images/background-2.png");
+   background-repeat: no-repeat;
+   background-position-x: right;
+   height: 120vh;
+   margin-top: -2%;
+}
+
+#titleElectro{
+    color: var(--corPrimary);
+    font-size: 40px;
+    margin-left: 7%;
+    width: 60%;
+    margin-top: 5%;
+}
+
+#imgEletros{
+    height: 90vh;
+    margin-top: -5.5%;
+    margin-left: -2.5%;
+}
+
+#price{
+    color: var(--corSecundary);
+    font-size: 28px;
+    margin-left: 7%;
+    margin-top: -5%;
+    text-decoration: underline;
+    text-decoration-color: var(--corPrimary);
+}

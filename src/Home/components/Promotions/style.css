@@ -1,0 +1,48 @@
+:root{
+    --corPrimary: #1511D3;
+    --corSecundary: #1F1F1F;
+}
+
+.section-promotions{
+    background-color: var(--corPrimary);
+    display: flex;
+    height: 35vh;
+    align-items: center;
+}
+
+#titlePromotions{
+    font-size: 40px;
+    margin-left: 7%;
+    width: 53%;
+    color: white;
+}
+
+#input{
+    height: 12vh;
+    width: 20%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin-left: 3%;
+}
+
+#input:focus{
+    outline: none;
+    color: var(--corPrimary);
+}
+
+#input::placeholder{
+    font-size: 18px;
+}
+
+#btn{
+    height: 15vh;
+    width: 10%;
+    border: none;
+    color: white;
+    background-color: var(--corSecundary);
+    font-size: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
