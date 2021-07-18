@@ -1,5 +1,5 @@
 :root{
-    --corSecundary: #1F1F1F;
+    --corSecundary: #161616;
 }
 
 footer{
@@ -9,13 +9,13 @@ footer{
     justify-content: center;
     background-color: var(--corSecundary);
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 
 @media(max-width: 850px){
     footer{
-       font-size: 14px;
+       font-size: 16px;
        padding: 5%;
     }
 }

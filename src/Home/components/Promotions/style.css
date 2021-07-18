@@ -1,6 +1,6 @@
 :root{
-    --corPrimary: #0e0bbb;
-    --corSecundary: #1F1F1F;
+    --corPrimary: #ffa600;
+    --corSecundary: #161616;
 }
 
 .section-promotions{
@@ -11,10 +11,11 @@
 }
 
 #titlePromotions{
-    font-size: 40px;
+    font-size: 37px;
     margin-left: 7%;
     width: 53%;
-    color: white;
+    color: var(--corSecundary);
+    letter-spacing: 3px;
 }
 
 #input{
@@ -30,21 +31,24 @@
 #input:focus{
     outline: none;
     color: var(--corPrimary);
+    font-family: 'Rajdhani';
 }
 
 #input::placeholder{
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Rajdhani';
 }
 
 #btn{
-    height: 15vh;
+    height: 14.8vh;
     width: 10%;
     border: none;
     color: white;
     background-color: var(--corSecundary);
-    font-size: 20px;
+    font-size: 22px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    font-family: 'Rajdhani';
 }
 
 @media(max-width: 850px){

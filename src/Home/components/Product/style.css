@@ -1,0 +1,90 @@
+:root{
+    --corPrimary: #ffa600;
+    --corSecundary: #161616;
+}
+
+.section-product{
+   background-image: url("../../../images/background-white.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #fafafa;
+   width: 100%;
+   height: 175vh;
+   margin-top: 3%;
+}
+
+#title-product{
+    color: var(--corSecundary);
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    letter-spacing: 9px;
+    font-family: 'Anton', sans-serif;
+}
+
+#headphone{
+    height: 60vh;
+    margin-left: 37%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+#price{
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size:35px;
+    margin: 0 auto;
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: var(--corPrimary);
+}
+
+#btn-comprar{
+    height: 10vh;
+    font-size: 25px;
+    background-color: var(--corPrimary);
+    width: 23%;
+    outline: none;
+    margin-left: 39%;
+    border: none;
+    border-radius: 100px;
+    margin-top: 1%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.116);
+}
+
+@media(max-width: 850px){
+    .section-product{
+        height: 96vh;
+        padding-bottom: 0%;
+        margin-bottom: -18.7%;
+    }
+    #title-product{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin-left: -0%;
+        margin-top: 10%;
+        letter-spacing: 2px;
+    }
+    #price{
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+    }
+    #headphone{
+        height: 35vh;
+        width: auto;
+        margin: 10% 20%;
+    }
+    #btn-comprar{
+        width: 50%;
+        margin: 3% 25%;
+        font-size: 18px;
+    }
+}

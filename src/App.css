@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300&display=swap');
+
+
 html, body{
     box-sizing: border-box;
     margin: 0%;
-    background-color: #fafafa;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
