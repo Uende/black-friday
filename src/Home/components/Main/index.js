@@ -44,7 +44,7 @@ export default function Main(){
                         <h1 id='textBF'>Black Friday de Eletrônicos</h1>
                         <h2 id='textOFF'>60% DE DESCONTO + FRETE GRÁTIS</h2>
                         <div className='cardTime'>
-                            <h3 className='textTime'>Duração da oferta:</h3>
+                            <h3 className='textTime'>Tempo restante:</h3>
                             <h3 className='textTime'>{time}</h3>
                         </div>
                     </div>

@@ -3,10 +3,12 @@ import './style.css';
 
 export default function Promotions(){
 
-    const [email, setEmail] = useState('');
+    const [email, setEmail] = useState('')
     function saveEmail(){
         if(email.includes('@') && email.length > 13){
             localStorage.setItem('email', email)
+            alert('Parabéns! Agora você receberá todas as nossas promoções! :)')
+            window.location.reload()
         }else{
             alert('Por favor, insira um e-mail valido')
         }

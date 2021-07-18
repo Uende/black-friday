@@ -17,3 +17,9 @@ img{
     height: 30vh;
     margin: 0 auto;
 }
+
+@media(max-width: 850px){
+    header{
+        height: 10vh;
+    }
+}
