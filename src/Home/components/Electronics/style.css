@@ -1,5 +1,5 @@
 :root{
-    --corPrimary: #1511D3;
+    --corPrimary: #0e0bbb;
     --corSecundary: #1F1F1F;
 }
 
@@ -44,12 +44,12 @@
         font-size: 28px;
         text-align: center;
         margin-left: -0%;
-        margin-top: 10%;
+        margin-top: 12%;
     }
     #imgEletros{
-        height: 45vh;
+        height: 40vh;
         width: 100%;
-        margin-top: -15%;
+        margin-top: -18%;
         margin-bottom: -7%;
     }
     #price{
