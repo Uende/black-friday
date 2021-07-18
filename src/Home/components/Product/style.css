@@ -59,16 +59,17 @@
 
 @media(max-width: 850px){
     .section-product{
-        height: 96vh;
+        height: auto;
         padding-bottom: 0%;
         margin-bottom: -18.7%;
+        margin-top: 0;
     }
     #title-product{
         width: 100%;
         font-size: 28px;
         text-align: center;
         margin-left: -0%;
-        margin-top: 10%;
+        margin-top: 0;
         letter-spacing: 2px;
     }
     #price{
@@ -84,7 +85,7 @@
     }
     #btn-comprar{
         width: 50%;
-        margin: 3% 25%;
+        margin: 12% 25%;
         font-size: 18px;
     }
 }
