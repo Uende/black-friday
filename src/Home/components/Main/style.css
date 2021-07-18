@@ -59,7 +59,7 @@ main{
 
 @media(max-width: 850px){
     main{
-        height: 70vh; 
+        height: auto; 
         background-size: contain;
     }
     
