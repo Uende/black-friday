@@ -1,4 +1,4 @@
-# Balck Friday Landing Page 🛍️
+# Black Friday Landing Page 🛍️
 
 This is a project developed by Uende Teles as a solution for the #Challenge1 of the FullStack Hiring Coders training program. 👩🏾‍💻😃
 
