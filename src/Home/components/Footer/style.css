@@ -13,7 +13,7 @@ footer{
     text-align: center;
 }
 
-@media(max-width: 850px){
+@media(max-width: 1024px){
     footer{
        font-size: 16px;
        padding: 5%;

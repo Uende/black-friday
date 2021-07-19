@@ -1,0 +1,28 @@
+.cardTime{
+    background-color: var(--corPrimary);
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.7%;
+    margin-top: 13%; 
+    box-shadow: 2px 2px 8px black;
+}
+
+.textTime{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .cardTime{
+        width: 100%;
+        margin-top: 5%;
+        box-shadow: none;
+    }
+    .textTime{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+}

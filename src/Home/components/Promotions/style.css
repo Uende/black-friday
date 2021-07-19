@@ -30,13 +30,13 @@
 
 #input:focus{
     outline: none;
-    color: var(--corPrimary);
+    color: var(--corSecundary);
     font-family: 'Rajdhani';
 }
 
 #input::placeholder{
-    font-size: 20px;
-    font-family: 'Rajdhani';
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #btn{
@@ -51,11 +51,12 @@
     font-family: 'Rajdhani';
 }
 
-@media(max-width: 850px){
+@media(max-width: 1024px){
     .section-promotions{
         display: block;
         height: 40vh;
         margin-top: 17%;
+        padding-bottom: 8%;
         width: 100%;
     }
     #titlePromotions{
@@ -77,6 +78,6 @@
         font-size: 18px;
     }
     #input::placeholder{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
